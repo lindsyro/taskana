@@ -1,0 +1,94 @@
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.emptyState.large {
+  width: 100%;
+  height: 624px;
+  gap: 40px;
+  padding: 0px 24px 24px 24px;
+  box-sizing: border-box;
+}
+
+.emptyState.small {
+  gap: 24px;
+}
+
+.image {
+  display: block;
+  object-fit: contain;
+}
+
+.large .image {
+  width: 100%;
+  max-width: 463px;
+  height: 319px;
+}
+
+.small .image {
+  width: 100%;
+  max-width: 231px;
+  height: 168px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  text-align: center;
+}
+
+.large .textContainer {
+  max-width: 628px;
+  height: 72px;
+}
+
+.small .textContainer {
+  max-width: 352px;
+  height: 72px;
+}
+
+.subtitle {
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: var(--neutral-800);
+}
+
+.large .subtitle {
+  max-width: 628px;
+  height: 32px;
+}
+
+.description {
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: var(--neutral-800);
+}
+
+.large .description {
+  font-size: 18px;
+  max-width: 628px;
+  height: 24px;
+}
+
+.small .description {
+  font-size: 16px;
+  max-width: 352px;
+  height: 72px;
+  padding: 0 24px;
+}

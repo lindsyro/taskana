@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 676px;
+  height: 56px;
+  padding: 16px 24px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.text {
+  margin: 0;
+  width: 100%;
+  max-width: 628px;
+  height: 24px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: var(--neutral-600);
+}
+
+.link {
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}

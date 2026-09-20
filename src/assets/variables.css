@@ -1,0 +1,34 @@
+:root {
+  /* Colors: Neutral / Light */
+  --neutral-0: #FFFFFF; /* Основной фон */
+  --neutral-100: #FBFBFB; /* Фон боковых лайаутов */
+  --neutral-200: #F3F3F3; /* Фон вторичных кнопок, ховер списков */
+  --neutral-300: #ECECEC; /* Ховер вторичных кнопок */
+  --neutral-400: #BFBFBF; /* Бордеры */
+  --neutral-500: #8C8C8C; /* Иконки */
+  --neutral-600: #6C6C6C; /* Второстепенный текст, ховер бордера */
+  --neutral-700: #393939;
+  --neutral-800: #1C1C1C; /* Основной текст */
+  --neutral-900: #141414;
+
+  /* Colors: Primary */
+  --primary-0: #FFF4F4; /* Заливка приоритета 03 */
+  --primary-100: #FFCECE;
+  --primary-200: #FCA9A9;
+  --primary-300: #F25959; /* Pressed контролов */
+  --primary-400: #D51010; /* Основной цвет */
+  --primary-500: #A60C0C; /* Ховер */
+  --primary-600: #760909;
+
+  /* Colors: Base */
+  --base-black: #000000; /* Фон хедера */
+
+  /* Semantic Aliases */
+  --background-color: var(--neutral-0);
+  --text-color: var(--neutral-800);
+
+  /* Typography */
+  --font-family-base: 'Source Sans 3', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --font-size-base: 16px;
+  --line-height-base: 1.5;
+}

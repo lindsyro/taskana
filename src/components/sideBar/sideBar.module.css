@@ -1,0 +1,11 @@
+.sideBar {
+  width: 400px;
+  flex-shrink: 0;
+  padding: 24px;
+  background-color: var(--neutral-100);
+  border-left: 1px solid var(--neutral-300);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

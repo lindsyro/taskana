@@ -1,0 +1,57 @@
+.navBar {
+  width: 204px;
+  flex-shrink: 0;
+  padding: 24px 16px;
+  background-color: var(--neutral-100);
+  border-right: 1px solid var(--neutral-300);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.navList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 172px;
+  height: 40px;
+  padding: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--neutral-800);
+  background-color: transparent;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+.navLink:hover {
+  background-color: var(--neutral-200);
+}
+
+.navLink.active {
+  background-color: var(--neutral-800);
+  color: var(--neutral-0);
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.iconPlaceholder {
+  width: 24px;
+  height: 24px;
+  background-color: currentColor;
+  mask-image: url('/icons/inbox.svg');
+  -webkit-mask-image: url('/icons/inbox.svg');
+  mask-size: contain;
+  -webkit-mask-size: contain;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+}

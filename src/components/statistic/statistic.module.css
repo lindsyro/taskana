@@ -1,0 +1,5 @@
+.statistic {
+  padding: 10px;
+  background-color: var(--neutral-0);
+  border: 1px solid var(--neutral-400);
+}

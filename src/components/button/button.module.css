@@ -1,0 +1,31 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 118px;
+  height: 40px;
+  padding: 8px 16px 8px 12px;
+  background-color: var(--primary-400);
+  color: var(--neutral-0);
+  border: none;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  background-color: var(--primary-500);
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
