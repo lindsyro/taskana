@@ -41,7 +41,7 @@
 .navLink.active {
   background-color: var(--neutral-800);
   color: var(--neutral-0);
-  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: var(--shadow-base);
 }
 
 .iconPlaceholder {

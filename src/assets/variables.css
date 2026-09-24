@@ -34,4 +34,7 @@
     "Segoe UI Symbol";
   --font-size-base: 16px;
   --line-height-base: 1.5;
+
+  /* Shadows */
+  --shadow-base: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);
 }
