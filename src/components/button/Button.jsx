@@ -3,7 +3,15 @@ import styles from "./button.module.css";
 export function Button({ children, icon, href, ...props }) {
   const content = (
     <>
-      {icon && <img src={icon} alt="" className={styles.icon} />}
+      {icon && (
+        <img
+          src={icon}
+          alt="Иконка"
+          width="24"
+          height="24"
+          className={styles.icon}
+        />
+      )}
       {children}
     </>
   );
