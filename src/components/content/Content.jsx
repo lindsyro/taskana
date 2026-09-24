@@ -1,6 +1,5 @@
 import styles from "./content.module.css";
-import { NavBar } from "../navBar/NavBar";
-import { SideBar } from "../sideBar/SideBar";
+import { NavBar, SideBar } from "@/components";
 
 export function Content({ children }) {
   return (
