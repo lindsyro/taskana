@@ -1,12 +1,13 @@
-@import './normalize.css';
-@import './fonts/fonts.css';
-@import './variables.css';
+@import "./fonts/fonts.css";
+@import "./variables.css";
 
 html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -24,4 +25,5 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  overflow-x: auto;
 }

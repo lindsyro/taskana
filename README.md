@@ -1,4 +1,6 @@
-# React + Vite
+# Taskana App
+
+Ник — lindsyro. Имя — Ирина.
 
 ## Установка и запуск проекта
 

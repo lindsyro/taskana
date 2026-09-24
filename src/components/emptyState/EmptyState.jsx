@@ -5,9 +5,9 @@ export function EmptyState({
   subtitle,
   description,
   imagePosition,
-  variant
+  variant,
 }) {
-  const containerClass = `${styles.emptyState} ${styles[variant] || ''}`;
+  const containerClass = `${styles.emptyState} ${styles[variant] || ""}`;
 
   return (
     <div className={containerClass}>

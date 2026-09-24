@@ -1,6 +1,14 @@
 .incomingTasks {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  overflow: hidden;
+  min-height: 100%;
+  align-items: center;
+}
+
+@media (min-width: 1600px) {
+  .incomingTasks {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+  }
 }
