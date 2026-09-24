@@ -1,6 +1,5 @@
 import styles from "./incomingTasks.module.css";
-import { MainContainer } from "../../components/mainContainer/MainContainer";
-import { Footer } from "../../components/footer/Footer";
+import { MainContainer, Footer } from "@/components";
 
 export function IncomingTasks() {
   return (

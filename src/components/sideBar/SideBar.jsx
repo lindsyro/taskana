@@ -1,5 +1,5 @@
 import styles from "./sideBar.module.css";
-import { Statistic } from "../statistic/Statistic";
+import { Statistic } from "@/components";
 
 export function SideBar() {
   return (

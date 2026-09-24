@@ -1,6 +1,5 @@
 import styles from "./appLayout.module.css";
-import { Header } from "../../components/header/Header";
-import { Content } from "../../components/content/Content";
+import { Header, Content } from "@/components";
 
 export function AppLayout({ children }) {
   return (
