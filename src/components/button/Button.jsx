@@ -1,4 +1,4 @@
-import styles from './button.module.css';
+import styles from "./button.module.css";
 
 export function Button({ children, icon, href, ...props }) {
   const content = (

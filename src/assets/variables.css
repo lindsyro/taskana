@@ -1,23 +1,23 @@
 :root {
   /* Colors: Neutral / Light */
-  --neutral-0: #FFFFFF; /* Основной фон */
-  --neutral-100: #FBFBFB; /* Фон боковых лайаутов */
-  --neutral-200: #F3F3F3; /* Фон вторичных кнопок, ховер списков */
-  --neutral-300: #ECECEC; /* Ховер вторичных кнопок */
-  --neutral-400: #BFBFBF; /* Бордеры */
-  --neutral-500: #8C8C8C; /* Иконки */
-  --neutral-600: #6C6C6C; /* Второстепенный текст, ховер бордера */
+  --neutral-0: #ffffff; /* Основной фон */
+  --neutral-100: #fbfbfb; /* Фон боковых лайаутов */
+  --neutral-200: #f3f3f3; /* Фон вторичных кнопок, ховер списков */
+  --neutral-300: #ececec; /* Ховер вторичных кнопок */
+  --neutral-400: #bfbfbf; /* Бордеры */
+  --neutral-500: #8c8c8c; /* Иконки */
+  --neutral-600: #6c6c6c; /* Второстепенный текст, ховер бордера */
   --neutral-700: #393939;
-  --neutral-800: #1C1C1C; /* Основной текст */
+  --neutral-800: #1c1c1c; /* Основной текст */
   --neutral-900: #141414;
 
   /* Colors: Primary */
-  --primary-0: #FFF4F4; /* Заливка приоритета 03 */
-  --primary-100: #FFCECE;
-  --primary-200: #FCA9A9;
-  --primary-300: #F25959; /* Pressed контролов */
-  --primary-400: #D51010; /* Основной цвет */
-  --primary-500: #A60C0C; /* Ховер */
+  --primary-0: #fff4f4; /* Заливка приоритета 03 */
+  --primary-100: #ffcece;
+  --primary-200: #fca9a9;
+  --primary-300: #f25959; /* Pressed контролов */
+  --primary-400: #d51010; /* Основной цвет */
+  --primary-500: #a60c0c; /* Ховер */
   --primary-600: #760909;
 
   /* Colors: Base */
@@ -28,7 +28,10 @@
   --text-color: var(--neutral-800);
 
   /* Typography */
-  --font-family-base: 'Source Sans 3', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --font-family-base:
+    "Source Sans 3", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
   --font-size-base: 16px;
   --line-height-base: 1.5;
 }

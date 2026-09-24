@@ -1,6 +1,6 @@
-import styles from './header.module.css';
-import { Logo } from '../logo/Logo';
-import { Button } from '../button/Button';
+import styles from "./header.module.css";
+import { Logo } from "../logo/Logo";
+import { Button } from "../button/Button";
 
 export function Header() {
   return (

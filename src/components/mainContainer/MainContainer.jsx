@@ -1,5 +1,5 @@
-import styles from './mainContainer.module.css';
-import { TaskList } from '../taskList/TaskList';
+import styles from "./mainContainer.module.css";
+import { TaskList } from "../taskList/TaskList";
 
 export function MainContainer() {
   return (

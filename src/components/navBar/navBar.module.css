@@ -48,8 +48,8 @@
   width: 24px;
   height: 24px;
   background-color: currentColor;
-  mask-image: url('/icons/inbox.svg');
-  -webkit-mask-image: url('/icons/inbox.svg');
+  mask-image: url("/icons/inbox.svg");
+  -webkit-mask-image: url("/icons/inbox.svg");
   mask-size: contain;
   -webkit-mask-size: contain;
   mask-repeat: no-repeat;
