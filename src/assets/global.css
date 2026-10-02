@@ -1,3 +1,4 @@
+@import "./normalize.css";
 @import "./fonts/fonts.css";
 @import "./variables.css";
 
@@ -26,4 +27,5 @@ body {
   flex-direction: column;
   min-height: 100vh;
   overflow-x: auto;
+  overflow-y: hidden;
 }
